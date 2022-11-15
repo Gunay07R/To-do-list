@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.alma {
+.dord {
     width: 336px;
     margin: 70px auto;
     border-radius: 10px;
@@ -14,19 +14,19 @@ body {
     border: 1px solid #C4C4C4;
 }
 
-.armud {
+.bar {
     width: 100%;
     height: 36px;
     background-color: #FFDC40;
     border-radius: 10px 10px 0 0;
 }
 
-.armud:hover {
+.bar:hover {
     transition: 0.5s;
     background-color: teal;
 }
 
-.nar {
+.bes {
     padding: 4% 8%;
 }
 
@@ -50,25 +50,25 @@ h2:hover {
     to {color: teal;}
 }
 
-.kartof {
+.sort-btn {
     border: none;
     cursor: pointer;
     margin-left: 240px;
     background-color: initial;
 }
 
-.kartof svg:hover *{
+.sort-btn svg:hover *{
     fill: #833AE0;
 }
 
-.pomidor {
+.bir {
     list-style: none;
     padding: 12px 25px;
     border-radius: 10px;
     border: 1px solid #C4C4C4;
 }
 
-.pomidor li {
+.bir li {
     display: flex;
     justify-content: space-between;
 }
@@ -101,7 +101,7 @@ ul:hover {
     fill: #833AE0;
 }
 
-.gilas {
+.iki {
     width: 60%;
     display: flex;
     border-radius: 70px;
@@ -111,7 +111,7 @@ ul:hover {
     background-color: #833AE0;
 }
 
-.gilas .ustune {
+.iki .plus {
     height: 35px;
     border: none;
     color: white;
@@ -121,12 +121,12 @@ ul:hover {
     background-color: #9953F1;
 }
 
-.gilas .kuku {
+.iki .uc {
     margin: auto;
     color: white;
 }
 
-.gilas:hover {
+.iki:hover {
     width: 75%;
     transition: 0.5s;
     box-shadow: 0 0 0 4px #FFDC40;

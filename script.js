@@ -100,13 +100,13 @@ class DOMManipulator {
   }
 
   _init() {
-    this._todoList = this._getElement(".pomidor");
+    this._todoList = this._getElement(".bir");
 
-    this._addBtn = this._getElement(".gilas");
-    this.addBtn.addEventListener("click", () => this._itemsAdd());
+    this._addBtn = this._getElement(".iki");
+    this._addBtn.addEventListener("click", (_) => this._itemsAdd());
 
-    this._sortBtn = this._getElement(".kartof");
-    this.sortBtn.addEventListener("click", () => this._itemsSort());
+    this._sortBtn = this._getElement(".sort-btn");
+    this._sortBtn.addEventListener("click", (_) => this._itemsSort());
     this._sortDir = true;
 
     this._service.dataChangeEvent.subscribe(() => this.displayTodos());
